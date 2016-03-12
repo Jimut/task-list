@@ -26,7 +26,7 @@
   </style>
 </head>
 <body id="app-layout">
-  <!-- <nav class="navbar navbar-default"> -->
+  <nav class="navbar navbar-default">
       <div class="container">
           <div class="navbar-header">
 
@@ -40,14 +40,14 @@
 
               <!-- Branding Image -->
               <a class="navbar-brand" href="{{ url('/') }}">
-                  Laravel
+                  Task List
               </a>
           </div>
 
           <div class="collapse navbar-collapse" id="app-navbar-collapse">
               <!-- Left Side Of Navbar -->
               <ul class="nav navbar-nav">
-                  <li><a href="{{ url('/home') }}">Home</a></li>
+                  <li><a href="{{ url('/tasks') }}">Home</a></li>
               </ul>
 
               <!-- Right Side Of Navbar -->
@@ -71,12 +71,6 @@
           </div>
       </div>
   </nav>
-
-  <div class="container">
-    <nav class="navbar navbar-default">
-      
-    </nav>
-  </div>
 
   @yield('content')
 
